@@ -49,7 +49,7 @@
     <Resource Include="Examples\Hippo\Icons\*.xaml" />
     <Resource Include="Examples\Hippo\Application.ico" />
     <Resource Include="Examples\Lego\lego.png" />
-    <Resource Include="Examples\MeshBuilderSample\TextureTestImage.png"/>
+    <Resource Include="Examples\MeshBuilderSample\TextureTestImage.png" />
     <Resource Include="Examples\ParticleSystem\smoke.png" />
     <Resource Include="Examples\SolarSystem\Textures\*.jpg" />
     <Resource Include="Examples\Voxels\MyModel.xml" />
@@ -134,6 +134,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Examples\Terrain\Models\N43E042.hgt.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Examples\TriangularizationCopy\mesh_positions.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Examples\TriangularizationCopy\mesh_triangleIndices.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
